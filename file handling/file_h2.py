@@ -1,0 +1,10 @@
+f = open("File_h2.txt")
+# a = f.write("\nThis is line 2")
+# print(f.tell())
+f.seek(15)
+print(f.readline())
+# print(f.tell())
+# b = f.read()
+# 
+# print(b)
+f.close()
